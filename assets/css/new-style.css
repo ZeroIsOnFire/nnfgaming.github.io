@@ -50,7 +50,6 @@ a:hover { text-decoration: none; }
     padding-right: 50px;
 }
 
-
 .tel-skype p {
     margin-top: 18px;
     padding-right: 50px;
@@ -481,6 +480,10 @@ footer {
     -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
     box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
     color: #aaa;
+}
+
+.fb-comments.facebook{
+    background-color: white;
 }
 
 footer h3 {
