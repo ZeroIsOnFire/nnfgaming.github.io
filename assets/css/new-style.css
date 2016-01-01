@@ -484,6 +484,8 @@ footer {
 
 .facebook{
     background-color: white;
+    overflow: auto;
+    height: 430px;
 }
 
 footer h3 {
