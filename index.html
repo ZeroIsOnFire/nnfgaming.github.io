@@ -23,10 +23,61 @@
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
-    </head>
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut" href="assets/ico/favicon.ico">
 
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/ico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="assets/ico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/ico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/ico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/ico/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/ico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="assets/ico/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="assets/ico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="assets/ico/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+
+    </head>
+        
     <body>
-        <!-- Product Showcase -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <header>    
+            <!-- Header -->
+            <div class="container">
+                <div class="header row">
+                    <div class="logo span4">
+                        <h2><a href="">NNF GAMING</a></h2>
+                    </div>
+                    <div class="tel-skype span8">
+                        <div class="social-links-header">
+                            <a class="facebook" href="#"></a>
+                            <a class="twitter" href="#"></a>
+                            <a class="googleplus" href="#"></a>
+                            <a class="youtube" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- Center -->
         <div class="product-showcase">
             <div class="product-showcase-pattern">
                 <div class="container">
@@ -98,77 +149,63 @@
                 <div class="span12">
                     <!-- features -->
                     <div class="features_2">
+                        <h3>Onde nos encontrar</h3>
                         <div class="row">
-                            <h3>Onde nos encontrar</h3>
-
-                            <div class="span8">
-                                <div class="row">
-                                    <a href="https://www.facebook.com/nnfclan">
-                                        <div class="span4 single-feature features-left-span">
-                                            <div class="feature-icon">
-                                                <i class="fa fa-facebook"></i>
-                                            </div>
-                                            <div class="feature-text">
-                                                <h4>Facebook</h4>
-                                                <p>Curta nossa página! Postagens sobre jogos e comédia todos os dias!</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="https://www.youtube.com/user/CanalNNF">
-                                        <div class="span4 single-feature">
-                                            <div class="feature-icon">
-                                                <i class="fa fa-youtube"></i>
-                                            </div>
-                                            <div class="feature-text">
-                                                <h4>Youtube</h4>
-                                                <p>Inscreva-se! Vídeos novos sobre jogos todas as quartas e domingos!</p>
-                                            </div>
-                                        </div>
-                                    </a>
+                            <a href="https://www.facebook.com/nnfclan">
+                                <div class="span4 single-feature features-left-span">
+                                    <div class="feature-icon">
+                                        <i class="fa fa-facebook"></i>
+                                    </div>
+                                    <div class="feature-text">
+                                        <h4>Facebook</h4>
+                                        <p>Curta nossa página! Postagens sobre jogos e comédia todos os dias!</p>
+                                    </div>
                                 </div>
-                                <div class="row">
-                                    <a href="http://nnfclan.com/forum">
-                                        <div class="span4 single-feature features-left-span">
-                                            <div class="feature-icon">
-                                                <i class="fa fa-newspaper-o"></i>
-                                            </div>
-                                            <div class="feature-text">
-                                                <h4>Forúm</h4>
-                                                <p>Cadastre-se! Campeonatos, notícias, dúvidas, sugestões, tudo aqui!</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="http://steamcommunity.com/groups/CanalNNF">
-                                        <div class="span4 single-feature">
-                                            <div class="feature-icon">
-                                                <i class="fa fa-steam"></i>
-                                            </div>
-                                            <div class="feature-text">
-                                                <h4>Steam</h4>
-                                                <p>Entre no nosso grupo e jogue conosco!</p>
-                                            </div>
-                                        </div>
-                                    </a>
+                            </a>
+                            <a href="https://www.youtube.com/user/CanalNNF">
+                                <div class="span4 single-feature">
+                                    <div class="feature-icon">
+                                        <i class="fa fa-youtube"></i>
+                                    </div>
+                                    <div class="feature-text">
+                                        <h4>Youtube</h4>
+                                        <p>Inscreva-se! Vídeos novos sobre jogos todas as quartas e domingos!</p>
+                                    </div>
                                 </div>
-                                <div class="row">
-                                    <a href="http://nnfclan.com/forum/index.php?board=25.0F">
-                                        <div class="span4 single-feature features-left-span">
-                                            <div class="feature-icon">
-                                                <i class="fa fa-group"></i>
-                                            </div>
-                                            <div class="feature-text">
-                                                <h4>Recrutamento</h4>
-                                                <p>Junte-se a nós!</p>
-                                            </div>
-                                        </div>
-                                    </a>
+                            </a>
+                            <a href="http://nnfclan.com/forum">
+                                <div class="span4 single-feature">
+                                    <div class="feature-icon">
+                                        <i class="fa fa-newspaper-o"></i>
+                                    </div>
+                                    <div class="feature-text">
+                                        <h4>Forúm</h4>
+                                        <p>Cadastre-se! Campeonatos, notícias, dúvidas, sugestões, tudo aqui!</p>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="span4">
-                                <iframe src=" https://discordapp.com/widget?id=132495546173620224&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
-                            </div>
-
+                            </a>
+                            <a href="http://steamcommunity.com/groups/CanalNNF">
+                                <div class="span4 single-feature features-left-span">
+                                    <div class="feature-icon">
+                                        <i class="fa fa-steam"></i>
+                                    </div>
+                                    <div class="feature-text">
+                                        <h4>Steam</h4>
+                                        <p>Entre no nosso grupo e jogue conosco!</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="http://nnfclan.com/forum/index.php?board=25.0F">
+                                <div class="span4 single-feature">
+                                    <div class="feature-icon">
+                                        <i class="fa fa-group"></i>
+                                    </div>
+                                    <div class="feature-text">
+                                        <h4>Recrutamento</h4>
+                                        <p>Junte-se a nós!</p>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -184,24 +221,33 @@
                 </div>
             </div> -->
 
-        </div>   
+        </div>    
 
         <footer>
             <div class="container">
+                <div class="row">
+                    <div class="span6">
+                        <div class="fb-comments" data-href="http://nnfclan.com/" data-width="100%" data-numposts="3"></div>
+                    </div>
+                    <div class="span6">
+                        <iframe src=" https://discordapp.com/widget?id=132495546173620224&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0"></iframe>
+                    </div>
+                   </div> <!-- end row -->
+
                 <div class="row">
                     <div class="span12 copyright">
                         <p>Copyright &copy; 2006-2015 - NNF Gaming</p>
                     </div>
                 </div> <!-- end row -->
             </div> <!-- end container -->
-        </footer>   
+        </footer>
 
         <!-- Javascript -->
         <script src="assets/js/jquery-1.8.2.min.js"></script>
         <script src="assets/js/jquery.backstretch.min.js"></script>
         <script src="assets/js/jquery.tweet.js"></script>
         <script src="assets/prettyPhoto/js/jquery.prettyPhoto.js"></script>
-        <script src="assets/js/video-scripts.js"></script>
+        <script src="assets/js/video-scripts.js"></script>        
         
     </body>
 
