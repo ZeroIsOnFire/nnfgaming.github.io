@@ -32,7 +32,7 @@ a:hover { text-decoration: none; }
     display: inline-block;
     width: 250px;
     height: 33px;
-    margin-top: 10px;
+    margin-top: 15px;
     background: url(../img/logo.png) left top no-repeat;
     color: #555;
     text-indent: -9999px;
@@ -51,10 +51,7 @@ a:hover { text-decoration: none; }
 }
 
 .tel-skype p {
-    margin-top: 18px;
-    padding-right: 50px;
-    text-align: right;
-    line-height: 30px;
+    margin: 0px 0px 0px 0px;
 }
 
 .tel-skype i {
@@ -893,6 +890,8 @@ footer a:hover { color: #aaa; }
     .gallery_2 .gallery-images .img-background i { font-size: 38px; line-height: 90px; }
 
     .gallery_2 .gallery-images img { width: 90px; }
+
+    .discord {padding-top: 5px;}
 
 }
 

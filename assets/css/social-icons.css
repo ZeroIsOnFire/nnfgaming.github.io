@@ -1,6 +1,11 @@
 
+.social-links-header a {
+	display: inline-block;
+    width: 48px;
+    height: 48px;
+}
 
-.social-links-header a, .social-links a {
+.social-links a {
     display: inline-block;
     width: 48px;
     height: 48px;

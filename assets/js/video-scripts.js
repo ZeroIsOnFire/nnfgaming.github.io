@@ -68,4 +68,10 @@ jQuery(document).ready(function() {
 
 });
 
+function openPopup(url)
+{
+    newwindow=window.open(url,'name','height=300,width=500');
+    if (window.focus) {newwindow.focus()}
+}
+
 
