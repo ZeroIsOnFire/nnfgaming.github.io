@@ -898,3 +898,51 @@ footer a:hover { color: #aaa; }
 @media (max-width: 480px) {
     .slideshow-video { width: 320px; height: 160px; } 
 }
+
+#Reviews
+
+.testimonial {
+    background-color: #2b2b2b;
+}
+
+.testimonial p {
+    color: #ddd;
+    background: #2b2b2b;
+    padding:15px;
+    margin:0;
+}
+.testimonial .arrow {
+    margin-left:10px;
+    width:0;
+    border-top:10px solid #2b2b2b;
+    border-left: 20px outset transparent;
+    border-right: 20px outset transparent;
+}
+.testimonial .whopic {
+    display:inline-block;
+}
+.testimonial .whopic img {
+    margin-top:10px;
+    width:50px;
+    height:50px;
+    float:left;
+}
+.testimonial .whopic strong {
+    float:left;
+    margin-top:10px;
+    padding-left:10px;
+}
+.testimonial .whopic small {
+    display:block;
+    font-size:12px;
+    
+}
+.testimonial-text{
+    display:block;
+    font-size:22px;
+    text-align:center;
+    margin:0 auto;
+    margin-top:30px;
+    width:70%;
+    line-height:1.3em;
+}
