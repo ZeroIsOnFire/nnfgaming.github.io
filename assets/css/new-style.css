@@ -122,6 +122,7 @@ a:hover { text-decoration: none; }
 }
 
 .product-title div.product-description {
+    text-align: justify;
     margin-top: 20px;
     padding-right: 40px;
     color: #fff;
@@ -695,6 +696,7 @@ footer a:hover { color: #aaa; }
     margin-left: 50px;
     margin-right: 40px;
     line-height: 30px;
+    text-align: justify;
 }
 
 
