@@ -97,6 +97,8 @@
 
                                         var player;
                                         function onYouTubeIframeAPIReady() {
+                                          $('.product-showcase').backstretch('assets/img/backgrounds/background2.jpg');  
+
                                           player = new YT.Player('ytplayer', {
                                             videoId: 'cq7qf7gdO3Y',
                                             height: '360',
@@ -105,22 +107,22 @@
                                                 'rel': 0,
                                                 'loop': 1
                                             },
-                                            events: {
-                                              'onReady': onPlayerReady,
-                                              'onStateChange': function(e){
-                                                    if (e.data === YT.PlayerState.ENDED) {
-                                                        player.playVideo(); 
-                                                    }
-                                                }
-                                            }
+                                            //events: {
+                                            //  'onReady': onPlayerReady,
+                                            //  'onStateChange': function(e){
+                                            //        if (e.data === YT.PlayerState.ENDED) {
+                                            //            player.playVideo(); 
+                                            //        }
+                                            //    }
+                                            //}
                                           });
                                         }
 
-                                        function onPlayerReady(event) {
-                                            event.target.mute();
-                                            event.target.setLoop(true);
-                                            event.target.playVideo();
-                                        }
+                                        //function onPlayerReady(event) {
+                                        //    event.target.mute();
+                                        //    event.target.setLoop(true);
+                                        //    event.target.playVideo();
+                                        //}
 
 
                                     </script>
@@ -132,7 +134,7 @@
                                     <div class="product-description">
                                         <p>
 
-                                            Happy brother pikachu high school cat father hac y u no for. Diablo 3 yao movie pizza win fun morbi silent hill woman cereal guy. Bear cool college face anonymous money lose blizzard i know that feel feel like a sir. Michelle homework rainbow unsave simpson joke facebook top portfolio. Geek cereal poker face derpina a steve jobs note just back. Vegan nap le derp all the things i dont get it i see what you did there one does not simply why computer. Humor read dad genius grey you don't say? 140% ba dumm tss gasp cookie monster laptop creepy me gusta megusta dummies aww yeah. People nyan cat basic math keyboard avengers le girlfriend female monday food not bad monocle. Asian sandwich oboma tank that meme close enough games oh stop it, you scared. Facepalm panda trolololo search.</p>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -202,7 +204,7 @@
                                     </div>
                                     <div class="feature-text">
                                         <h4>Recrutamento</h4>
-                                        <p>Junte-se a nós!</p>
+                                        <p>Junte-se a nossa família!</p>
                                     </div>
                                 </div>
                             </a>
@@ -212,6 +214,21 @@
             </div> <!-- end row -->
 
         </div>    
+
+
+        <!-- Content -->
+        <div class="container">
+
+            <div class="row">
+                <div class="span12">
+                    <!-- about us -->
+                    <div class="about-us_2">
+                        <h3>Nossa História</h3>
+                        <h5>Muito mais que um grupo, uma família.</h5>
+                        <p>Fundado na metade de 2006 no San Andreas Multiplayer, o NNF começou como um clã que cresceu rapidamente no jogo, com vários altos e baixos, e após um tempo se expandiu a outros jogos, participando de campeonatos e criando servidores. Tendo como objetivo a diversão, seus membros mais criativos iniciaram um canal no youtube e começaram a produzir conteúdos de comédia voltada ao público gamer, onde ganharam alguns seguidores e, após o crescimento das mídias sociais, uma página do facebook. No ano de 2015, foi decido iniciar uma nova era, onde o nome NNF Gaming surgiu e passamos a ser um grupo que cria conteúdos de gamers para gamers.</p>
+                    </div>
+                </div>
+            </div> <!-- end row -->
 
         <footer>
             <div class="container">
@@ -229,7 +246,7 @@
 
                 <div class="row">
                     <div class="span12 copyright">
-                        <p>Copyright &copy; 2006-2015 - NNF Gaming</p>
+                        <p>Copyright &copy; 2006-2016 - NNF Gaming</p>
                     </div>
                 </div> <!-- end row -->
             </div> <!-- end container -->

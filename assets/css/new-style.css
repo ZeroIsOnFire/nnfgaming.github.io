@@ -225,7 +225,7 @@ a.buy-it-now:active {
 
 .single-feature { margin-bottom: 10px; }
 
-.single-feature:hover i { color: #518d8a; }
+.single-feature:hover i { color: #FFF; }
 
 .feature-icon i {
     display: inline-block;
@@ -637,7 +637,7 @@ footer a:hover { color: #aaa; }
 
 .features_2 a { color: #555;}
 
-.features_2 .single-feature:hover i { color: #518d8a; }
+.features_2 .single-feature:hover i { color: #000; }
 
 .features_2 .feature-icon {
     float: left;
