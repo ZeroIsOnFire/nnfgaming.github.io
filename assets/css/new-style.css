@@ -47,7 +47,14 @@ a:hover { text-decoration: none; }
 .tel-skype .social-links-header {
     margin-top: 5px;
     text-align: center;
-    padding-right: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tel-skype h3 {
+    margin-right: 50px;
+    border-bottom: 1px dotted #aaa;
 }
 
 .tel-skype p {
@@ -695,9 +702,6 @@ footer a:hover { color: #aaa; }
 /***** Media Queries *****/
 
 @media (min-width:1201px) {
-    .tel-skype .social-links-header {
-        float: right;
-    }
 }
 
 @media (min-width: 980px) and (max-width: 1200px) {
@@ -707,10 +711,6 @@ footer a:hover { color: #aaa; }
     a.buy-it-now:active { border: 1px solid transparent; }
 
     .feature-icon i { font-size: 60px; }
-
-    .tel-skype .social-links-header {
-        float: right;
-    }
 
     .gallery-images .img-background { width: 90px; height: 90px; }
 
@@ -753,10 +753,6 @@ footer a:hover { color: #aaa; }
     a.buy-it-now:active { border: 1px solid transparent; }
 
     .feature-icon i { font-size: 42px; }
-
-    .tel-skype .social-links-header {
-        float: right;
-    }
 
     .gallery-images .img-background { width: 70px; height: 70px; }
 
@@ -875,7 +871,7 @@ footer a:hover { color: #aaa; }
 
     .about-us_2 p, .gallery_2 p { margin-left: 50px; margin-right: 50px; }
 
-    .features_2 .single-feature { width: 100%; margin-bottom: 0; padding-left:30px; }
+    .features_2 .single-feature { width: 100%; margin-bottom: 0; padding-left:30px; padding-right: 30px;}
 
     .features_2 .features-left-span { margin-left: 0; }
 
