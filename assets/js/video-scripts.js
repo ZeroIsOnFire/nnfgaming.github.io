@@ -1,9 +1,5 @@
 
 jQuery(document).ready(function() {
-    /*
-        Product showcase background
-    */
-    $('.product-showcase').backstretch('assets/img/backgrounds/background2.jpg');
 
     /*
         Gallery
@@ -66,6 +62,20 @@ jQuery(document).ready(function() {
         return false;
     });
 
+    var parallax = document.querySelectorAll(".parallaxbg"),
+      speed = 0.5;
+
+  window.onscroll = function(){
+    [].slice.call(parallax).forEach(function(el,i){
+
+      var windowYOffset = window.pageYOffset,
+          elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
+
+      el.style.backgroundPosition = elBackgrounPos;
+
+    });
+  };
+
 });
 
 function openPopup(url)
@@ -73,5 +83,6 @@ function openPopup(url)
     newwindow=window.open(url,'name','height=300,width=500');
     if (window.focus) {newwindow.focus()}
 }
+
 
 

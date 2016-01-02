@@ -21,7 +21,8 @@ body {
 
 header {
     height: 100%;
-    background: #2d2d2d url(../img/pattern-3.jpg); }
+    padding-top: 10px;
+    /*background: #2d2d2d url(../img/pattern-3.jpg);*/ }
 
 strong { font-weight: 700; }
 a:hover { text-decoration: none; }
@@ -620,6 +621,10 @@ footer a:hover { color: #aaa; }
 
 /***** Content *****/
 
+.features_3 {
+    width: 100%;
+}
+
 .features_2 {
     margin-top: 40px;
 }
@@ -699,7 +704,73 @@ footer a:hover { color: #aaa; }
     text-align: justify;
 }
 
+.testimonial p {
+    color: #ddd;
+    background: #2b2b2b;
+    padding:15px;
+    margin:0;
+}
+.testimonial .arrow {
+    margin-left:25px;
+    width:0;
+    border-top:10px solid #2b2b2b;
+    border-left: 20px outset transparent;
+    border-right: 20px outset transparent;
+}
+.testimonial .whopic {
+    display:inline-block; 
+}
+.testimonial .whopic img {
+    margin-top:10px;
+    width:50px;
+    height:50px;
+    float:left;
+}
+.testimonial .whopic strong {
+    float:left;
+    margin-top:15px;
+    padding-left:0px;
+    
+}
+.testimonial .whopic small {
+    display:block;
+    font-size:12px;
+    word-wrap: break-word;
 
+    
+}
+.testimonial-text{
+    display:block;
+    font-size:22px;
+    text-align:center;
+    margin:0 auto;
+    margin-top:30px;
+    width:70%;
+    line-height:1.3em;
+}
+
+.centered {
+    margin: 0 30px 30px 50px;
+    text-align: center;
+}
+
+.centered a{
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.parallaxbg {
+    background-image: url("../img/backgrounds/parallax.jpg");
+}
+
+.parallaxbg .single-feature {
+    background-color:#FFF;
+    margin-bottom:40px;
+}
+
+.parallaxbg .centered {
+    margin: 0 30px 30px 20px;
+}
 
 /***** Media Queries *****/
 
@@ -779,6 +850,10 @@ footer a:hover { color: #aaa; }
     .features_2 .feature-icon i { width: 30px; font-size: 27px; }
 
     .features_2 .feature-text { width: 158px; margin-left: 10px; }
+
+    .parallaxbg .centered { margin:0px 0px 30px 20px;}
+
+    .parallaxbg .single-feature .span2 {padding-bottom: 10px;}
 
     .gallery_2 .gallery-images .img-background { width: 90px; height: 90px; }
 
@@ -875,6 +950,16 @@ footer a:hover { color: #aaa; }
 
     .features_2 .single-feature { width: 100%; margin-bottom: 0; padding-left:30px; padding-right: 30px;}
 
+    .parallaxbg .features_2 { padding-left:30px; padding-right: 30px;}
+
+    .parallaxbg .features_2 .single-feature { width: 100%; margin-bottom: 40px; padding-left:0px; padding-right: 0px;}
+
+    .parallaxbg .single-feature .span2 {width: auto; float:left;}
+
+    .parallaxbg .centered {margin:0px 0px 20px 20px;}
+
+    .parallaxbg .single-feature .small {padding-right: 10px;}
+
     .features_2 .features-left-span { margin-left: 0; }
 
     .features_2 .feature-icon i { width: 30px; font-size: 30px; }
@@ -895,52 +980,7 @@ footer a:hover { color: #aaa; }
 
 @media (max-width: 480px) {
     .slideshow-video { width: 320px; height: 160px; } 
+    .parallaxbg .single-feature .span2 {padding-bottom: 10px; padding-left: 10px;}
 }
 
-#Reviews
 
-.testimonial {
-    background-color: #2b2b2b;
-}
-
-.testimonial p {
-    color: #ddd;
-    background: #2b2b2b;
-    padding:15px;
-    margin:0;
-}
-.testimonial .arrow {
-    margin-left:10px;
-    width:0;
-    border-top:10px solid #2b2b2b;
-    border-left: 20px outset transparent;
-    border-right: 20px outset transparent;
-}
-.testimonial .whopic {
-    display:inline-block;
-}
-.testimonial .whopic img {
-    margin-top:10px;
-    width:50px;
-    height:50px;
-    float:left;
-}
-.testimonial .whopic strong {
-    float:left;
-    margin-top:10px;
-    padding-left:10px;
-}
-.testimonial .whopic small {
-    display:block;
-    font-size:12px;
-    
-}
-.testimonial-text{
-    display:block;
-    font-size:22px;
-    text-align:center;
-    margin:0 auto;
-    margin-top:30px;
-    width:70%;
-    line-height:1.3em;
-}
