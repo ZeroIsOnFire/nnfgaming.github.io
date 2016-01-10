@@ -11,7 +11,6 @@
 
 body {
     background: #f8f8f8 url(../img/pattern.jpg);
-    /*border-top: 4px solid #518d8a;*/
     font-family: 'PT Sans', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -23,7 +22,7 @@ header {
     height: 100%;
     padding-top: 10px;
     text-align: center;
-    /*background: #2d2d2d url(../img/pattern-3.jpg);*/ } 
+} 
 
 strong { font-weight: 700; }
 a:visited, a:hover, a:active { text-decoration: none; outline: 0px none; }
@@ -95,14 +94,14 @@ header .links a:hover{
 ::selection { background: #2B2B2B; color: #fff; text-shadow: none; }
 
 
-/***** Product Showcase *****/
+/***** Showcase *****/
 
-.product-showcase {
+.showcase {
     margin: 0 auto;
     background: #2d2d2d;
 }
 
-.product-showcase-pattern {
+.showcase-pattern {
     margin: 0 auto;
     background-image: url(../img/pattern-2.png);
     -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
@@ -110,7 +109,7 @@ header .links a:hover{
     box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
 }
 
-.product-background {
+.container-background {
     margin-top: 20px;
     padding-bottom: 35px;
     background: #2d2d2d; /* browsers that don't support rgba */
@@ -926,7 +925,7 @@ footer a:hover { color: #aaa; }
 
     .tel-skype .social-links-header, .tel-skype p { float: middle; margin-bottom: 11px; padding-right: 0; text-align: center; }
 
-    .product-background { width: 90%; margin-left: auto; margin-right: auto; }
+    .container-background { width: 90%; margin-left: auto; margin-right: auto; }
 
     .slideshow-video { width: 360px; height: 200px; margin-left: auto; margin-right: auto; }
 

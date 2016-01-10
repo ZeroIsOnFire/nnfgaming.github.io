@@ -1,7 +1,7 @@
 
 jQuery(document).ready(function() {
 
-    $('.product-showcase').backstretch('assets/img/backgrounds/background2.jpg');  
+    $('.showcase').backstretch('assets/img/backgrounds/background.jpg');  
 
     /*
         Gallery
